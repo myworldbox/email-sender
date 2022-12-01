@@ -13,6 +13,7 @@ data = {
   "sender_email": "sender_email",
   
   "sender_image": "https://myworldbox.github.io/resources/images/myworldbox.jpg",
+  "sender_company":"VL Blockchain",
   "sender_website": "https://myworldbox.github.io",
   
   "motto_1": "Time is precious",
