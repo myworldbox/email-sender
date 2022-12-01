@@ -3,14 +3,21 @@ import requests
 url = "https://email-api.myworldbox.repl.co"
 
 data = {
-"sender_name": "your_name",
-"sender_email": "your_email@gmail.com",
+  "receiver_name": "receiver_name",
+  "receiver_email": "receiver_email",
   
-"receiver_name": "receiver_name",  
-"receiver_email": "receiver_name@gmail.com",
+  "title": "title",
+  "message": "message",
   
-"title": "title",
-"message": "message"
+  "sender_name": "sender_name",
+  "sender_email": "sender_email",
+  
+  "sender_image":
+  "https://myworldbox.github.io/resources/images/myworldbox.jpg",
+  "sender_website": "https://myworldbox.github.io",
+  
+  "motto_1": "Time is precious",
+  "motto_2": "So makes it counts",
 }
 
-print("[Email send]: " , requests.post(url, json=data))
+print("[Email sent]: ", requests.post(url, json=data))
