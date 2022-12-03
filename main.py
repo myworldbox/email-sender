@@ -3,6 +3,11 @@ import requests
 url = "https://email-api.myworldbox.repl.co"
 
 data = {
+  "provider_email": 'provider_email',
+  "provider_password": 'provider_password',
+
+  "copyright": "© 2021 VL Blockchain. All rights reserved.",
+  
   "receiver_name": "receiver_name",
   "receiver_email": "receiver_email",
   
