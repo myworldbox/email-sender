@@ -20,6 +20,9 @@ data = {
   "sender_website": "https://myworldbox.github.io",
   "sender_copyright": "© 2021 VL Blockchain. All rights reserved.",
   
+  "button_text": "button_text",
+  "button_link": "button_link",
+  
   "motto_1": "Time is precious",
   "motto_2": "So makes it counts",
 }
