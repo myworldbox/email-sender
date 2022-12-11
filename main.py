@@ -18,6 +18,7 @@ data = {
   "sender_image": "https://myworldbox.github.io/resources/images/myworldbox.jpg",
   "sender_company":"VL Blockchain",
   "sender_website": "https://myworldbox.github.io",
+  "sender_subscription": "sender_subscription",
   "sender_copyright": "© 2021 VL Blockchain. All rights reserved.",
   
   "button_text": "button_text",
